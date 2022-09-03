@@ -5,9 +5,9 @@
 
 Console.WriteLine("Введите число : ");
 int a = int.Parse(Console.ReadLine());
-int i = 2;
+Console.Write($"{a} -> ");
 
-for (int i=2; i<=a; i = i + 2);
+for (int i=2; i<=a; i = i + 2)
 {
-    Console.WriteLine($"{a} -> {i}");
+    Console.Write($"{i} ");
 }
